@@ -655,8 +655,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return printMe; });
 function printMe() {
-    // console.log('I get called from print.js!');
-    cosnole.log('I get called from print.js!');
+    console.log('I get called from print.js!');
 }
 
 /***/ }),
@@ -691,4 +690,4 @@ module.exports = content.locals || {};
 /***/ })
 
 /******/ });
-//# sourceMappingURL=app.bundle.js.map
+//# sourceMappingURL=app.js.map?v=d8e91c52d76acce57078
