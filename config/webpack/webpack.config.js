@@ -11,9 +11,9 @@ module.exports = {
     },
     devtool: 'source-map',
     plugins: [
-        new CleanWebpackPlugin(),
+        new CleanWebpackPlugin({ cleanStaleWebpackAssets: false }),
         new HtmlWebpackPlugin({
-            title: 'Output Management2'
+            title: 'Development'
         }),
         new ManifestPlugin()
     ],

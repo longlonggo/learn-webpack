@@ -20,7 +20,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx webpack --config config/webpack/webpack.config.js"
+    "build": "npx webpack --config config/webpack/webpack.config.js",
+    "watch": "npx webpack --config config/webpack/webpack.config.js --watch"
   },
   "repository": {
     "type": "git",
