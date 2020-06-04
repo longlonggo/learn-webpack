@@ -1,6 +1,8 @@
 {
   "app.js": "app.bundle.js",
+  "app.js.map": "app.bundle.js.map",
   "print.js": "print.bundle.js",
+  "print.js.map": "print.bundle.js.map",
   "my-font.woff": "34d6c29ac65ee1d58afa730fd67e6538.woff",
   "my-font.woff2": "8492e478acb8520eb958b8f91a99a5a4.woff2",
   "icon.jpg": "f1fa8296b69fd98ef2edef97a3480e4e.jpg",
